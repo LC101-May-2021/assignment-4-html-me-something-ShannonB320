@@ -1,1 +1,52 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    text-shadow: 2px 2px blue;
+    font-size: 40px;
+    color: white;
+    background-color: yellow;
+    padding: 5px;
+}
+
+article {
+    padding: 50px;
+}
+
+ul {
+    color: green;
+}
+
+.info{
+    border-style: dotted;
+    padding: 20px 10px;
+}
+
+.buildTitle {
+    color: blue;
+    text-align: center;
+}
+
+.buildDescription {
+    padding: 5px 100px;
+}
+
+.image{
+    text-align: center;
+}
+
+#funParagraph {
+    color: green;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#footerHeading {
+    color: green;
+}
