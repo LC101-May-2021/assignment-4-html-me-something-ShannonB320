@@ -1,1 +1,62 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 200px; 
+    background: yellow;
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-size: 40px;
+    padding: 10px;
+}
+
+article {
+    margin: 20px;
+}
+
+ul {
+    color: green;
+}
+
+.info{
+    border-style: dotted;
+    padding: 10px;
+}
+
+.buildTitle {
+    color: blue;
+    font-family: "Lucida Handwriting";
+    font-size: 20px;
+    text-align: center;
+    border-style: double;
+    border-color: blue;
+    border-radius: 10px;
+}
+
+.buildDescription {
+    padding: 5px 100px;
+}
+
+.image{
+    text-align: center;
+}
+
+.funParagraph {
+    color: green;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+}
+
+#footerHeading {
+    color: green;
+    font-family: "Lucida Handwriting";
+}
