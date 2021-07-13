@@ -5,16 +5,18 @@ body {
 }
 
 header {
+    height: 200px; 
+    background: yellow;
     text-align: center;
+    font-family: "Lucida Handwriting";
+    color: white;
     text-shadow: 2px 2px blue;
     font-size: 40px;
-    color: white;
-    background-color: yellow;
-    padding: 5px;
+    padding: 10px;
 }
 
 article {
-    padding: 50px;
+    margin: 20px;
 }
 
 ul {
@@ -23,12 +25,17 @@ ul {
 
 .info{
     border-style: dotted;
-    padding: 20px 10px;
+    padding: 10px;
 }
 
 .buildTitle {
     color: blue;
+    font-family: "Lucida Handwriting";
+    font-size: 20px;
     text-align: center;
+    border-style: double;
+    border-color: blue;
+    border-radius: 10px;
 }
 
 .buildDescription {
@@ -45,8 +52,11 @@ ul {
 
 #mainHeading {
     color: red;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
 }
 
 #footerHeading {
     color: green;
+    font-family: "Lucida Handwriting";
 }
